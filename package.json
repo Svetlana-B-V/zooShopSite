@@ -1,0 +1,34 @@
+{
+  "name": "cat-energ",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Svetlana-B-V/zooShopSite#readme",
+  "bugs": {
+    "url": "https://github.com/Svetlana-B-V/zooShopSite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svetlana-B-V/zooShopSite.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp style",
+    "start": "gulp serve"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.14"
+  }
+}
